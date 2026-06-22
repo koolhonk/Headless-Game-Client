@@ -20,6 +20,11 @@ create entry for each user
 ```
 username,password,world,script,scriptParam1,...,scriptParamN
 ```
+add a file called proxyMapping.csv to config/ folder
+create entry for each proxy
+```
+proxyHost,proxyPort,proxyType,proxyUser,proxyPass
+```
 ## run
 ```
 node app.cjs
